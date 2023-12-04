@@ -1,0 +1,113 @@
+#logogoogle{
+    width: 25px;
+    height: 25px;
+}
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 5px 20px;
+    margin: 0 20px 50px 0;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+}
+
+.icons{
+    width: 28px;
+    height: 28px;
+    fill:#615f5f;
+    padding: 10px;
+}
+.icons:hover{
+    fill: blue;
+}
+#profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#middle{
+    margin: 100px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.middleright{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+#protype{
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    color: #3c4043;
+}
+.check{
+    display: flex;
+    flex-direction: column ;
+    font-size: 15px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.checkbox{
+    margin-right: 20px;
+}
+.checkdiv{
+    margin: 10px 0;
+}
+.items{
+    padding: 80px 24px;
+    background: rgb(253, 245, 245); 
+    height: 280px;
+}
+.images{
+    width: 250px;
+}
+.images:hover{
+    scale: 1.2;
+}
+.itemrow{
+    display: flex;
+}
+.contain{
+    padding: 0 15px 20px 15px;
+}
+.secbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 100px 150px 70px auto;
+    text-align: start;
+    column-gap: 50px;
+}
+.listrow{
+    display: flex;
+    flex-direction:column ;
+    row-gap: 5px;
+}
+.bottomimg{
+    width: 20px;
+    padding: 8px;
+}
+.lastpart{
+    margin: 0 96px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d8dcdf;
+}
+.second{
+    display: flex;
+}
+.lasttext{
+    font-size: 10px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+p:hover{
+    color: rgb(44, 44, 207);
+}
